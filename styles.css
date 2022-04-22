@@ -1,0 +1,213 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #800080;
+}
+
+#cta{
+  background-color: #800080;
+  text-align: center;
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+
+}
+
+
+.mainHeading {
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  color: beige;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+.navbar {
+  padding: 0px 0px 18px 0px;
+}
+.nav-item {
+  padding: 0px 18px;
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.homeContainer {
+  padding-top: 20px;
+}
+#title{
+  position: relative;
+  z-index: 2;
+}
+
+.btn1 {
+  margin-top: 20px;
+}
+
+.btn2 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.textHome {
+  padding-top: 50px;
+  color: beige;
+}
+
+.jslpic {
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+  transform: rotate(30deg);
+  right: 30%;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-family: 'Hubballi', cursive;
+  font-weight: 900;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cta-head{
+  font-size: 2.6rem;
+  white-space:normal;
+  padding-top: 5%;
+  margin-bottom: 3%;
+  color:#fff;
+}
+
+.btncta{
+  margin-bottom: 6%;
+}
+
+.icon {
+  padding-bottom: 3%;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #800080;
+}
+
+/* carousel */
+#booktosale {
+  text-align: center;
+  background-color: #800080;
+  color: #FFF8DC;
+  padding-bottom: 150px;
+}
+
+em {
+  color: #FFE4C4;
+}
+
+.carousel-inner {
+  width: 50%;
+  margin-left: 24%;
+  padding-top: 7%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+h2 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/* ecommerce */
+#ecommerce {
+  background-color: #800080;
+  padding-top: 10%;
+}
+.ecommerce-logo {
+    border-radius: 100%;
+    width: 5%;
+    margin: 5px;
+  }
+
+#shopbag {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.card-holder {
+  padding: 3% 2%;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+}
+.footer-icon{
+  margin:2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+.jslpic {
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 5%;
+  }
+.ecommerce-logo {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+  }
+
+h2 {
+    font-size: 2rem;
+}
+}
+.costaleona {
+    text-align: center;
+    padding: 3% 2%;
+    position: relative;
+    width: 250px;
+    height: 350px;
+  }
+
+.preorder{
+  position: relative;
+  width: 250px;
+  height: 350px;
+  font-family: 'Montserrat';
+}
+.jonaxx{
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
